@@ -1363,7 +1363,7 @@ class Schedule(Object):
         block : Union[BlockRV, str]
             The consumer block of the target buffer.
 
-        buffer: Union[int, str, Buffer]
+        read_buffer_index: Union[int, str, Buffer]
             The index of the buffer in block's read region, the unique
             name of a read buffer in the block, or a Buffer object
             that is within the blocks read region.
